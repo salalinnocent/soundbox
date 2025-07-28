@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        gradient: "gradientMove 2s ease infinite",
+        gradient: "gradientMove 8s ease-in-out infinite",
       },
       keyframes: {
         gradientMove: {

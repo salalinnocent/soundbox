@@ -1,11 +1,12 @@
 import SignIn from "../sections/SignIn";
 
 
-const PageLayout = ({ children }) => {
+//PageLayout
+const PageLayout = () => {
   return (
     <>
-      <div>
-        <SignIn />
+      <div className="min-h-screen w-screen overflow-hidden">
+        <SignIn/>
       </div>
     </>
   )

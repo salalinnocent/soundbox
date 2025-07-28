@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import Hero from './sections/Hero'
 import PageLayout from './Layout/PageLayout'
-import SignIn from './sections/SignIn'
+import "../../client/src/index.css"
 
-function App() {
-  const [count, setCount] = useState(0)
+//Application Entry Point
+const App = () => {
 
   return (
-  <PageLayout/>
+  <PageLayout>
+      <App/>
+    </PageLayout>
  )
 }
 
